@@ -609,10 +609,6 @@ html{
   gap: 30px;
 }
 
-.border-b {
-  border-bottom-width: 1px;
-}
-
 .border-l {
   border-left-width: 1px;
 }
@@ -621,17 +617,17 @@ html{
   border-right-width: 1px;
 }
 
-.border-\[\#27213b\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(39 33 59 / var(--tw-border-opacity));
-}
-
-.border-\[\#7863e0\] {
+.border-lightpurple {
   --tw-border-opacity: 1;
   border-color: rgb(120 99 224 / var(--tw-border-opacity));
 }
 
-.bg-\[\#130f1c\] {
+.border-line {
+  --tw-border-opacity: 1;
+  border-color: rgb(39 33 59 / var(--tw-border-opacity));
+}
+
+.bg-darkpurple {
   --tw-bg-opacity: 1;
   background-color: rgb(19 15 28 / var(--tw-bg-opacity));
 }
@@ -698,42 +694,23 @@ html{
   font-weight: 700;
 }
 
-.font-extralight {
-  font-weight: 200;
-}
-
 .leading-8 {
   line-height: 2rem;
 }
 
-.text-\[\#7863e0\] {
+.text-gray1 {
+  --tw-text-opacity: 1;
+  color: rgb(221 221 221 / var(--tw-text-opacity));
+}
+
+.text-gray2 {
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
+.text-lightpurple {
   --tw-text-opacity: 1;
   color: rgb(120 99 224 / var(--tw-text-opacity));
-}
-
-.text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-.text-indigo-700 {
-  --tw-text-opacity: 1;
-  color: rgb(67 56 202 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -746,27 +723,6 @@ html{
   transition-duration: 150ms;
 }
 
-@media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:hidden {
-    display: none;
-  }
-
-  .md\:border-b {
-    border-bottom-width: 1px;
-  }
-
-  .md\:border-\[\#27213b\] {
-    --tw-border-opacity: 1;
-    border-color: rgb(39 33 59 / var(--tw-border-opacity));
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -776,7 +732,7 @@ html{
     border-bottom-width: 1px;
   }
 
-  .lg\:border-\[\#27213b\] {
+  .lg\:border-line {
     --tw-border-opacity: 1;
     border-color: rgb(39 33 59 / var(--tw-border-opacity));
   }
